@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".second_page">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <ImageView
+            android:id="@+id/backk"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="10dp"
+            android:src="@drawable/back"/>
+
+        <TextView
+            android:id="@+id/idname"
+            android:layout_toRightOf="@id/backk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="_vaghamashi_"
+            android:layout_marginStart="15dp"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"/>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="25dp"
+            android:src="@drawable/plus"
+            android:layout_alignEnd="@id/idname"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="10dp"/>
+
+
+
+    </RelativeLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:background="#D7CEDD">
+
+
+                <ImageView
+                    android:layout_marginTop="10dp"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@drawable/search"
+                   android:layout_marginStart="10dp" />
+
+                <EditText
+                    android:layout_width="444dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:hint="search" />
+
+
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <HorizontalScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="@color/black"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#FF03E6"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+
+                            <de.hdodenhof.circleimageview.CircleImageView
+                                android:layout_width="70dp"
+                                android:layout_height="70dp"
+                                android:layout_marginStart="20dp"
+                                android:layout_marginTop="20dp"
+                                android:layout_marginRight="20dp"
+                                android:src="@drawable/aavter"
+                                app:civ_border_color="#000000"
+                                app:civ_border_width="5dp" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginStart="25dp"
+                                android:layout_marginTop="5dp"
+                                android:layout_marginRight="20dp"
+                                android:text="Your story"
+                                android:textColor="@color/black"
+                                android:textStyle="bold" />
+
+                        </LinearLayout>
+
+
+                    </LinearLayout>
+
+
+                </HorizontalScrollView>
+
+
+
+            </LinearLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Messages."
+                    android:layout_marginStart="15dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Requests(1)"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    android:layout_alignParentRight="true" />
+
+
+
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                <TextView
+                    android:id="@+id/frst"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="_Crush_"
+                    android:layout_marginTop="7dp"
+                    android:layout_marginStart="10dp"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"
+                    tools:ignore="DuplicateIds" />
+
+                    <TextView
+                        android:layout_below="@id/frst"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="typing..."
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                        <ImageView
+                            android:layout_width="30dp"
+                            android:layout_height="30dp"
+                            android:src="@drawable/camera"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="20dp"
+                            android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_ruhi_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst17"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 1h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_bikeer_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 3h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#FF03E6"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_navro_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_carvala_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 2h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="good"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 5h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_vo_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_kem_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_cho_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_cho_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_gujju_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="vo he_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_bakudo_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_Demo_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_demo_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_demo_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst15"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="7dp">
+
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginRight="20dp"
+                    android:src="@drawable/aavter"
+                    app:civ_border_color="#000000"
+                    app:civ_border_width="2dp"
+                    android:layout_marginLeft="10dp"/>
+
+
+                <RelativeLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginStart="10dp">
+
+                    <TextView
+                        android:id="@+id/frst16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="_demo_"
+                        android:layout_marginTop="7dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+                    <TextView
+                        android:layout_below="@id/frst16"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="seen 8h ago"
+                        android:layout_marginTop="3dp"
+                        android:layout_marginStart="10dp"
+                        android:textStyle="bold"
+                        android:textColor="@color/black"/>
+
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:src="@drawable/camera"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginTop="15dp"/>
+
+
+
+
+                </RelativeLayout>
+
+
+            </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+
+</RelativeLayout>
